@@ -14,6 +14,7 @@ extends Node3D
 @export var GRID_SCALE = 2 # Factor for movement; constrains grid
 @export var ROTATE_SCALE = PI/2 # Factor for rotation; constrains grid
 @export var TWEEN_FACTOR = 0.3 # Affects camera interpolation speed
+@export var REVIVE_LIFE: int # Health player will come back with
 
 # Signals
 signal turn_end
@@ -41,7 +42,6 @@ var is_on_turn: bool
 var has_moved: bool = false
 var looking_at_popup: bool = false
 var last_door_location: Vector3i
-var revive_life: int # Health player will come back with: zero means game over
 
 # Tweens
 var motion_tween
@@ -49,7 +49,7 @@ var motion_tween
 func _ready():
 	add_to_group("Player")
 	last_door_location = position
-	revive_life = 75
+	REVIVE_LIFE = 75
 
 # returns true if persona has attacked when it needs to, or if mage is inactive
 # else remove false
@@ -116,14 +116,10 @@ func _process(_delta):
 		emit_signal("popup_close")
 		looking_at_popup = false
 		
-	if COMBAT_COMPONENT.health == 0:
-		if revive_life > 0:
-			emit_signal("prompt_text_overlay", "You Died?...", 2)
-			position = last_door_location
-			COMBAT_COMPONENT.health = revive_life
-			revive_life -= 25
-		else:
-			emit_signal("game_over")
+	if COMBAT_COMPONENT.health == 0:	
+		emit_signal("prompt_text_overlay", "You Died?...", 2)
+		position = last_door_location
+		COMBAT_COMPONENT.health = REVIVE_LIFE
 
 func _input(event):
 	if is_on_turn:
