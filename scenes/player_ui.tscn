@@ -1,10 +1,10 @@
 [gd_scene load_steps=47 format=3 uid="uid://djs4ng2baukv4"]
 
-[ext_resource type="Script" path="res://assets/scripts/player_ui.gd" id="1_xygem"]
+[ext_resource type="Script" uid="uid://cc740a5n1r0l8" path="res://assets/scripts/player_ui.gd" id="1_xygem"]
 [ext_resource type="Texture2D" uid="uid://d3a7wwiqkur6j" path="res://assets/sprites/UI_spritesheet.png" id="2_tujh6"]
 [ext_resource type="Texture2D" uid="uid://drer81oth8v1a" path="res://assets/sprites/artifacts.png" id="3_j4yj4"]
 [ext_resource type="SpriteFrames" uid="uid://ctfbmwlfy2but" path="res://assets/sprite_frames/slash_01.tres" id="3_l6qgg"]
-[ext_resource type="Script" path="res://assets/scripts/Attack_Animations.gd" id="4_exc6q"]
+[ext_resource type="Script" uid="uid://lpvxmibej0j3" path="res://assets/scripts/Attack_Animations.gd" id="4_exc6q"]
 [ext_resource type="Texture2D" uid="uid://bk5sdblwu0b1d" path="res://assets/sprites/help.png" id="5_ax7f5"]
 [ext_resource type="Texture2D" uid="uid://dw3iusj58wlwn" path="res://assets/sprites/coin_stock.png" id="6_bwws7"]
 

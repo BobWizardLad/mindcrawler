@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://cuk7aatc1s117"]
 
-[ext_resource type="Script" path="res://assets/scripts/ArtifactPickup.gd" id="1_mb0gf"]
+[ext_resource type="Script" uid="uid://dvlba28mi2dae" path="res://assets/scripts/ArtifactPickup.gd" id="1_mb0gf"]
 [ext_resource type="Texture2D" uid="uid://drer81oth8v1a" path="res://assets/sprites/artifacts.png" id="2_mjfdu"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wxrlj"]

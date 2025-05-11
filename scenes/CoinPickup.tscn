@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://do8qml2lqvisd"]
 
-[ext_resource type="Script" path="res://assets/scripts/CoinPickup.gd" id="1_ecxie"]
+[ext_resource type="Script" uid="uid://dib57b7qkkd6h" path="res://assets/scripts/CoinPickup.gd" id="1_ecxie"]
 [ext_resource type="Texture2D" uid="uid://btyfgajf3i0o0" path="res://assets/sprites/coin.png" id="1_gi6sq"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_lb83x"]

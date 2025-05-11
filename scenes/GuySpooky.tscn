@@ -1,9 +1,9 @@
 [gd_scene load_steps=9 format=3 uid="uid://dcckkqm76twbs"]
 
-[ext_resource type="Script" path="res://assets/scripts/Enemy.gd" id="1_7wvu1"]
+[ext_resource type="Script" uid="uid://doda01llngeuh" path="res://assets/scripts/Enemy.gd" id="1_7wvu1"]
 [ext_resource type="SpriteFrames" uid="uid://buvg1ypeybdut" path="res://assets/sprite_frames/spooky_death.tres" id="2_13dhk"]
 [ext_resource type="Texture2D" uid="uid://c47s16kbsj4mt" path="res://assets/sprites/guySpooky.png" id="2_p33im"]
-[ext_resource type="Script" path="res://assets/scripts/CombatComponent.gd" id="3_2r1i8"]
+[ext_resource type="Script" uid="uid://b6qvhsfdek57r" path="res://assets/scripts/CombatComponent.gd" id="3_2r1i8"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mtkaw"]
 atlas = ExtResource("2_p33im")

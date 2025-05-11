@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://duju8xr76r362"]
 
 [ext_resource type="Texture2D" uid="uid://dbydj05jdu8x0" path="res://assets/sprites/logo_intro.png" id="1_4egq4"]
-[ext_resource type="Script" path="res://assets/scripts/introduction.gd" id="1_kvaak"]
+[ext_resource type="Script" uid="uid://bnmq02kk7gyoi" path="res://assets/scripts/introduction.gd" id="1_kvaak"]
 [ext_resource type="Texture2D" uid="uid://xubsmeh1rhnt" path="res://assets/sprites/door_intro.png" id="2_mqvff"]
 
 [node name="Introduction" type="Control"]

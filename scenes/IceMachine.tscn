@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://b3x5ltsjpldgj"]
 
-[ext_resource type="Script" path="res://assets/scripts/IceMachine.gd" id="1_2jjpw"]
+[ext_resource type="Script" uid="uid://6d1wksjql2b7" path="res://assets/scripts/IceMachine.gd" id="1_2jjpw"]
 [ext_resource type="Texture2D" uid="uid://3wpsxkwvcmlo" path="res://assets/sprites/furniture.png" id="2_53r7r"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_8h3pp"]

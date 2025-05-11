@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://cnbhh5wnifbir"]
 
-[ext_resource type="Script" path="res://assets/scripts/PickupFXPlayer.gd" id="1_o8gf6"]
+[ext_resource type="Script" uid="uid://byw7h1id5i26v" path="res://assets/scripts/PickupFXPlayer.gd" id="1_o8gf6"]
 
 [node name="PickupFxPlayer" type="AudioStreamPlayer"]
 script = ExtResource("1_o8gf6")

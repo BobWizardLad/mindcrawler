@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=3 uid="uid://cu1fwe52xa2il"]
 
-[ext_resource type="Script" path="res://assets/scripts/PlayerController.gd" id="1_8jn2h"]
-[ext_resource type="Script" path="res://assets/scripts/PlayerCombatComponent.gd" id="2_wgawj"]
-[ext_resource type="Script" path="res://assets/scripts/Player_FXPlayer.gd" id="3_c5kbd"]
+[ext_resource type="Script" uid="uid://b8c5yq83b1p4p" path="res://assets/scripts/PlayerController.gd" id="1_8jn2h"]
+[ext_resource type="Script" uid="uid://bha50nck637f4" path="res://assets/scripts/PlayerCombatComponent.gd" id="2_wgawj"]
+[ext_resource type="Script" uid="uid://bwmjvi37uwfr" path="res://assets/scripts/Player_FXPlayer.gd" id="3_c5kbd"]
 [ext_resource type="PackedScene" uid="uid://cnbhh5wnifbir" path="res://scenes/PickupFXPlayer.tscn" id="4_hngfi"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_itav6"]

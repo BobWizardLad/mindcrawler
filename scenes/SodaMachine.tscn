@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://rgbfdax3jo7f"]
 
-[ext_resource type="Script" path="res://assets/scripts/SodaMachine.gd" id="1_xua1w"]
+[ext_resource type="Script" uid="uid://bs3nxnww0jihn" path="res://assets/scripts/SodaMachine.gd" id="1_xua1w"]
 [ext_resource type="Texture2D" uid="uid://3wpsxkwvcmlo" path="res://assets/sprites/furniture.png" id="2_61tn5"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_8h3pp"]

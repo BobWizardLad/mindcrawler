@@ -1,9 +1,9 @@
 [gd_scene load_steps=9 format=3 uid="uid://cd2qqmj0mbn2f"]
 
-[ext_resource type="Script" path="res://assets/scripts/Enemy.gd" id="1_iek5k"]
+[ext_resource type="Script" uid="uid://doda01llngeuh" path="res://assets/scripts/Enemy.gd" id="1_iek5k"]
 [ext_resource type="Texture2D" uid="uid://cxnthf5yeqble" path="res://assets/sprites/guyCry.png" id="2_3d5u1"]
 [ext_resource type="SpriteFrames" uid="uid://cufe36kjgnodg" path="res://assets/sprite_frames/soul_death.tres" id="2_6sc63"]
-[ext_resource type="Script" path="res://assets/scripts/CombatComponent.gd" id="3_lof1h"]
+[ext_resource type="Script" uid="uid://b6qvhsfdek57r" path="res://assets/scripts/CombatComponent.gd" id="3_lof1h"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_oefhd"]
 atlas = ExtResource("2_3d5u1")

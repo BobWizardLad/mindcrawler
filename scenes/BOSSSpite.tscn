@@ -1,9 +1,9 @@
 [gd_scene load_steps=9 format=3 uid="uid://dejvq44wgmmpm"]
 
-[ext_resource type="Script" path="res://assets/scripts/Enemy.gd" id="1_el5j8"]
+[ext_resource type="Script" uid="uid://doda01llngeuh" path="res://assets/scripts/Enemy.gd" id="1_el5j8"]
 [ext_resource type="SpriteFrames" uid="uid://do42vgvfndvhc" path="res://assets/sprite_frames/spite_death.tres" id="2_xxu8m"]
 [ext_resource type="Texture2D" uid="uid://810wnwvk5kdf" path="res://assets/sprites/lieSpite-Sheet.png" id="3_nns18"]
-[ext_resource type="Script" path="res://assets/scripts/CombatComponent.gd" id="4_pqc43"]
+[ext_resource type="Script" uid="uid://b6qvhsfdek57r" path="res://assets/scripts/CombatComponent.gd" id="4_pqc43"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5bjtd"]
 atlas = ExtResource("3_nns18")
